@@ -7,15 +7,24 @@
 
 
 ## Introduction 
-Text
+- The goal of this activity is to demonstrate the use of various tools in the creation of a music management application:
+    - NodeJs for building server
+    - Express for handling HTTP requests
+    - MySQL for database storage and queries
+    - dotenv for environment config
 
-## Part 1
+## Screen Cast
 
-Screenshots and descriptions
+[Link to screen cast video]()
 
-## Part 2
+## Write-up
 
-Screenshots and descriptions
+This project taught me how to design REST APIs with Node.js, Express, and TypeScript, as well as how to connect to a MySQL database. It showed the importance of structuring the application into separate layers for routes, controllers, and DAOs. I also gained hands-on experience working with middleware and environment files to with configuration . Additionally, I practiced implementing asynchronous processing, error handling, and response routing.
 
 ## Conclusion
-Text here
+- This activity provided valuable hands-on experience in designing and implementing backend APIs. Key concepts covered include:
+    - REST API design
+    - N-layer architecture
+    - Middleware security
+    - Asynchronous database operations with error handling
+    - Configuration through .env file
