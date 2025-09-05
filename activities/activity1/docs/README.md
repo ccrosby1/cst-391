@@ -15,7 +15,7 @@
 
 ## Screen Cast
 
-[Link to screen cast video]()
+[Link to screen cast video](https://www.loom.com/share/6ed45f8ce3694d1fa6f10b6356543c4a?sid=0f98ab27-af1d-466a-bd19-5ecd4022fa8d)
 
 ## Write-up
 
