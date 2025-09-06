@@ -1,7 +1,7 @@
 # Milestone 1
 
 - Author:  Cody Crosby
-- Date:  Day Month 2025
+- Date:  7 September 2025
 
 ## Introduction
 
@@ -15,15 +15,14 @@
 
 - Below is the Sitemap ...
 
-<!-- ![Sitemap Diagram](images/sitemap.png) -->
+![Sitemap Diagram](images/sitemap.png)
 
 ## Wireframes
 
 - Below are the Wireframes ...
 
-<!-- ![Wireframes Diagram](images/wireframes.png) -->
+![Wireframes Diagram](images/wireframes.png)
 
 ## Conclusion
 
 - Explain what you learned on this assignment throughly ...
-
