@@ -1,10 +1,7 @@
-# Milestone 2
+# Milestone 3
 
  - Author:  Cody Crosby
  - Date:  14 September 2025
-
-## Instructor Feedback
- - The instructor has approved the initial submission. No further revisions are necessary beyond those required for the Milestone 2 submission.
 
 ## Introduction
 
@@ -70,11 +67,11 @@
 
  |Method|Endpoint|Description|
  |--|--|--|
- |GET|/api/equipment|Retrieve a list of all gym equipment items|
- |GET|/api/equipment/:id|Retrieve details for a specific piece of equipment by its ID|
- |POST|/api/equipment|Add a new equipment record to the database|
- |PUT|/api/equipment/:id|Update an existing equipment item by its ID|
- |DELETE|/api/equipment/:id|Remove an equipment record from the database by its ID|
+ |GET|/equipment|Retrieve a list of all gym equipment items|
+ |GET|/equipment/:id|Retrieve details for a specific piece of equipment by its ID|
+ |POST|/equipment|Add a new equipment record to the database|
+ |PUT|/equipment/:id|Update an existing equipment item by its ID|
+ |DELETE|/equipment/:id|Remove an equipment record from the database by its ID|
 
 ## API Example API Request
 
