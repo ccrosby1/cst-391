@@ -3,6 +3,9 @@
  - Author:  Cody Crosby
  - Date:  14 September 2025
 
+## Instructor Feedback
+ - The instructor has approved the initial submission. No further revisions are necessary beyond those required for the Milestone 2 submission.
+
 ## Introduction
 
  - This project is an online management application designed for a gym equipment catalog. It will allow users to perform standard CRUD operations on various equipment types, with all data stored in a MySQL database. The catalog will maintain details such as equipment availability, category, pricing, and other details. The backend will be built using Node.js and Express to provide RESTful APIs for data manipulation. Two separate front-end applications, one in Angular and the other in React, will utilize these APIs.
@@ -11,18 +14,13 @@
 
  - The application must:
     - Support CRUD (Create, Read, Update, Delete) operations on gym equipment through a REST API
-
     - Adhere to REST conventions:
         - Use plural nouns for resources
         - Use hierarchical paths for nested resources if needed
         - Use HTTP verbs (GET, POST, PUT, DELETE) to define actions
-
     - Allow users to view all available equipment in a list
-
     - Allow users to filter equipment by category
-
     - Store data in a MySQL database
-
     - Provide two separate front-ends, Angular and React, that use the same REST APIs
 
 ## Sitemap
