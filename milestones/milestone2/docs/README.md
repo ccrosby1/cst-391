@@ -88,3 +88,4 @@
     - Wireframe
     - UML
     - ER Diagram
+    - REST Endpoints
