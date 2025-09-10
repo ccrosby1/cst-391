@@ -70,11 +70,11 @@
 
  |Method|Endpoint|Description|
  |--|--|--|
- |GET|/api/equipment|Retrieve a list of all gym equipment items|
- |GET|/api/equipment/:id|Retrieve details for a specific piece of equipment by its ID|
- |POST|/api/equipment|Add a new equipment record to the database|
- |PUT|/api/equipment/:id|Update an existing equipment item by its ID|
- |DELETE|/api/equipment/:id|Remove an equipment record from the database by its ID|
+ |GET|/equipment|Retrieve a list of all gym equipment items|
+ |GET|/equipment/:id|Retrieve details for a specific piece of equipment by its ID|
+ |POST|/equipment|Add a new equipment record to the database|
+ |PUT|/equipment/:id|Update an existing equipment item by its ID|
+ |DELETE|/equipment/:id|Remove an equipment record from the database by its ID|
 
 ## API Example API Request
 
