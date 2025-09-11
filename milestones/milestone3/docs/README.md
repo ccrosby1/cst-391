@@ -6,7 +6,7 @@
 ## Links
  [Screen Cast](https://www.loom.com/share/8a31f9d11ea2418f8ee9baddbc4b4522?sid=bcd15ca9-c39f-41aa-baf1-690727f8294c)
 
- [PowerPoint](PPT.md)
+ [PowerPoint](PPT.pdf)
 
 ## Introduction
 
