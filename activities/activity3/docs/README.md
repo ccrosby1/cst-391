@@ -6,7 +6,7 @@
 
 ## Introduction
 
- - This activity 
+ - This activity will cover how to create responsive Angular application with dynamic routing and component interaction. 
 
 ## Part 1 
 
@@ -142,9 +142,8 @@
 
 ## Conclusion
 
- - This activity went over basic key concepts of Angular. To include:
-    - Install
-    - Project creation
-    - Component variables
-    - File structure
+ - This activity built an Angular application used to manage music, and eventually use the MusicAPI from earlier activities. Key concepts covered include: 
+    - Angular routing
+    - Template forms
+    - Component communication
 
