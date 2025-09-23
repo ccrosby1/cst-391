@@ -1,0 +1,34 @@
+<div class="container mt-4" *ngIf="equipment">
+  <h3>Edit Equipment</h3>
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label>Name</label>
+      <input class="form-control" [(ngModel)]="equipment.name" name="name">
+    </div>
+
+    <div class="form-group">
+      <label>Category</label>
+      <input class="form-control" [(ngModel)]="equipment.category" name="category">
+    </div>
+
+    <div class="form-group">
+      <label>Price</label>
+      <input type="number" class="form-control" [(ngModel)]="equipment.price" name="price">
+    </div>
+
+    <div class="form-group">
+      <label>Weight</label>
+      <input type="number" class="form-control" [(ngModel)]="equipment.weight" name="weight">
+    </div>
+
+    <div class="form-check">
+      <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" [(ngModel)]="equipment.isAvailable" name="isAvailable">
+      Available
+      </label>
+    </div>
+
+    <button class="btn btn-primary mt-3" type="submit">Save</button>
+    <button class="btn btn-secondary mt-3" type="button" (click)="router.navigate(['/list-equipment'])">Cancel</button>
+  </form>
+</div>

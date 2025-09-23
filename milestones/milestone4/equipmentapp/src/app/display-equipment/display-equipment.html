@@ -1,0 +1,25 @@
+<div align="center">
+  <div class="card mb-6" style="max-width: 500px;">
+    <div class="card-body">
+      <h5 class="card-title">{{ equipment.name }}</h5>
+      <p class="card-text">{{ equipment.category }}</p>
+      <p class="card-text"><strong>Price:</strong> ${{ equipment.price }}</p>
+      <p class="card-text"><strong>Weight:</strong> {{ equipment.weight }} lbs</p>
+      <p class="card-text"><strong>Available:</strong> {{ equipment.isAvailable ? 'Yes' : 'No' }}</p>
+      <table>
+        <tr>
+          <td width="50px" align="center">
+            <a [routerLink]="['/edit-equipment', equipment.equipmentId]">
+              <i class="fa fa-edit"></i>
+            </a>
+          </td>
+          <td width="50px" align="center">
+            <a [routerLink]="['/delete-equipment', equipment.equipmentId]">
+              <i class="fa fa-trash"></i>
+            </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

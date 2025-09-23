@@ -1,0 +1,11 @@
+<div class="list-group" *ngIf="selectedEquipment == null">
+  <button class="list-group-item"
+    *ngFor="let item of equipmentList"
+    (click)="onSelectEquipment(item)">
+    {{ item.name }} ({{ item.category }})
+  </button>
+</div>
+
+<div *ngIf="selectedEquipment">
+  <app-display-equipment [equipment]="selectedEquipment"></app-display-equipment>
+</div>

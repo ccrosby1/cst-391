@@ -1,0 +1,38 @@
+<div align="center" style="margin-left:50px;margin-right:50px" *ngIf="!wasSubmitted">
+  <form (ngSubmit)="onSubmit()" #createForm="ngForm">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input id="name" type="text" class="form-control" placeholder="Enter equipment name" required [(ngModel)]="equipment.name" name="name">
+    </div>
+
+    <div class="form-group">
+      <label for="category">Category</label>
+      <input id="category" type="text" class="form-control" placeholder="Enter category" required [(ngModel)]="equipment.category" name="category">
+    </div>
+
+    <div class="form-group">
+      <label for="price">Price</label>
+      <input id="price" type="number" class="form-control" placeholder="Enter price" required [(ngModel)]="equipment.price" name="price">
+    </div>
+
+    <div class="form-group">
+      <label for="weight">Weight</label>
+      <input id="weight" type="number" class="form-control" placeholder="Enter weight" required [(ngModel)]="equipment.weight" name="weight">
+    </div>
+
+    <div class="form-group">
+      <label for="isAvailable">Available</label>
+      <select id="isAvailable" class="form-control" [(ngModel)]="equipment.isAvailable" name="isAvailable">
+        <option [value]="true">Yes</option>
+        <option [value]="false">No</option>
+      </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<div *ngIf="wasSubmitted">
+  Equipment was added successfully.
+</div>
+
