@@ -6,47 +6,47 @@
 
 ## Introduction
 
- - 
+ - This activity will cover how to convert the Angular front-end from using hard-codded sample data to consuming the Express REST APIs created in a previous assignment.The focus will be on wiring the layers together so that the Angular application can preform CRUD operation with persistence on the database.
 
 ## Part 1 
 
- - Main application screen (the main screen, just has the title of the app with a navbar to view artists, create album, about, home, and the school homepage)
+ - The home screen displays the title of the app and includes a navbar with links to key sections for listing artists, creating new albums, displaying version details, returning home, and navigating to the GCU homepage.
 
  ![Main page](images/main.png)
 
- - Artist List Screen(the standard page is updated with a list of all artists in the db. each one shows as it's own clickable option)
+ - The artist list screen retrieves data directly from the backend instead of relying on hard-coded values. Each artist is displayed as its own clickable option to allow users to interact with the records.
  
  ![Artist list screen](images/artists.png)
 
- - Album List Screen (same as the artist page, but lists the albums for the clicked artists)
+ - Once an artist is selected, the album list screen returns a view with all albums for that specific artist.
 
  ![Album list screen](images/albumList.png)
 
- - Album Display w/ tracks (shows a card of the album with the title, desctription, year, images, and options to update, delete, or view tracks. THe tracks have been enlarged and show as a list of titles)
+ - Clicking an album loads a card view with the album’s details, including its title, description, release year, and cover image. Users then have options to update, delete, or view the tracks for the album.
 
  ![Album w/ tracks](images/albumTracks.png)
 
- - Add Album Screen (a form with all the neccary fields to create an album, prefilled with test data)
+ - This form allows users to create a new album. The form includes all necessary fields (title, artist, year, description, image, and track details). Submitting the form triggers a POST request to the API, dynamically updating both the frontend and backend.
 
  ![Add album form](images/addAlbum.png)
 
- - Album added to DB ( the db table showing the new album added to the db)
+ - Confirming the success of the create operation by inspecting the database to show the newly added album appearing in the table.
 
  ![New album in DB](images/dbAdd.png)
 
- - Delete Response (the confirmation messgae before deleteing a record, along with the success message of deletion as a popup)
+ - A confirmation message is shown when attempting to delete an album to prevent accidental removals. After confirming, a popup success message is displayed to give the user feedback.
 
  ![Delete confirmation + response](images/response.png)
 
- - Album deleted from DB (the db showing the deleted album no longer in the table)
+ - Viewing the database confirms the selected album is removed from the table. This validates that the Angular application can successfully perform multiple types of CRUD operations. 
 
  ![Album deleted from DB](images/dbDelete.png)
 
  ### Research
  
- - Angular maintains its logged in state through the use of authentication tokens. The server generates a token for new users when they log in and Angular stores it in a session. 
+ - Angular maintains its logged in state through the use of authentication tokens. The server generates a token for users when they log in, and Angular stores it in session storage. Each API request then uses this token to prove identity, allowing the backend to enforce access control.
 
 ## Conclusion
 
- - 
+ - This activity covered how to refactor the Angular frontend from using placeholder data into running on a live Express API backend. The app can now supports the full CRUD operations of albums and their tracks.
 
