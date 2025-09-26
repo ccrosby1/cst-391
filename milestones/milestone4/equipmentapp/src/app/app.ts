@@ -16,7 +16,9 @@ export class App {
   constructor(private router: Router) {}
 
   displayVersion() {
-    alert(`App Version: ${this.version}`);
+    alert(`Author: Cody Crosby\n` +
+      `Class: CST-391\n` +
+      `App Version: ${this.version}`);
   }
 
   displayEquipmentCatalog() {
@@ -27,5 +29,9 @@ export class App {
 
   goToCreate() {
     this.router.navigate(['/create']);
+  }
+
+  displayIntro() {
+    this.router.navigate(['/intro']);
   }
 }

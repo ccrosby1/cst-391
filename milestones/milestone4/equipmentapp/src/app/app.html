@@ -7,16 +7,16 @@
 <div>
   <nav class="navbar navbar-expand-lg bg-light p-0">
     <div class="container">
-      <a class="navbar-brand" href="#">Gym Catalog</a>
+      <a class="navbar-brand" role="button" (click)="displayIntro(); $event.preventDefault()">Gym Catalog</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item" role="presentation"><a class="nav-link" href="#" role="button" (click)="goToCreate(); $event.preventDefault()">Create Equipment</a></li>
-          <li class="nav-item" role="presentation"><a class="nav-link" (click)="displayEquipmentCatalog(); $event.preventDefault()">Equipment Catalog</a></li>
-          <li class="nav-item"><a class="nav-link" href="" (click)="displayVersion()">About</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" role="button" (click)="displayEquipmentCatalog(); $event.preventDefault()">Equipment Catalog</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" role="button" (click)="goToCreate(); $event.preventDefault()">Create Equipment</a></li>
+          <li class="nav-item"><a class="nav-link" role="button" (click)="displayVersion()">About</a></li>
         </ul>
       </div>
     </div>
