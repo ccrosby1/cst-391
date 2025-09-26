@@ -1,3 +1,7 @@
+/**
+ * CreateEquipment Component
+ * Handles creating new equipment items
+ */
 import { Component, OnInit } from '@angular/core';
 import { Equipment } from '../models/equipment.model';
 import { EquipmentServiceService } from '../service/equipment-service.service';
@@ -14,6 +18,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class CreateEquipment implements OnInit {
 
+  // Blank equipment object for form binding
   equipment: Equipment = {
     equipmentId: Math.floor(Math.random() * 1000000),
     name: '',
@@ -23,12 +28,16 @@ export class CreateEquipment implements OnInit {
     isAvailable: true
   };
 
+  // traks if form was submitted
   wasSubmitted: boolean = false;
 
   constructor(private service: EquipmentServiceService) { }
 
   ngOnInit() {}
 
+  /**
+   * Passes form details to service for creation
+   */
   public onSubmit() {
     console.log('Creating equipment:', this.equipment);
     this.service.createEquipment(this.equipment, () => {

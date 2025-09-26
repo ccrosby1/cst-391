@@ -1,3 +1,7 @@
+/**
+ * CatalogIntro Component
+ * Displays welcome meassage for app
+ */
 import { Component } from '@angular/core';
 
 @Component({
