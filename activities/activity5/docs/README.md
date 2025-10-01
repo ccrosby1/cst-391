@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 # Activity 5
 
  - Author:  Cody Crosby
