@@ -4,7 +4,7 @@
  - Date:  19 October 2025
 
 ## Links
- [Screen Cast]()
+ [Screen Cast](https://www.loom.com/share/51237b0baaf74303b28c47ec2cb53e3c?sid=22a9799f-773f-43e8-964b-ee9b1a02fa46)
 
  [PowerPoint](PPT.pdf)
 
@@ -112,6 +112,23 @@
     - CreateEquipment
 
     ![create-equpipment UML](../../images/create-equipment.png)
+
+ - React Front-End:
+    - App.js
+
+    ![Main component UML](../../images/App-js.png)
+
+    - EquipmentList.js
+
+    ![Equipment List UML](../../images/edit-equipment-js.png)
+
+    - EditEquipment.js
+
+    ![Edit/Create form UML](../../images/edit-equipment-js.png)
+
+    - SearchForm.js
+
+    ![Search Form UML](../../images/search-form-js.png)
 
 ## REST Endpoints
 
