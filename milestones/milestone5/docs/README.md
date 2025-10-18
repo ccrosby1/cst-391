@@ -27,21 +27,21 @@
 
 ## Updates
 
- - Created Angular front-end to consume Express REST APIs. This milestone included implementing the following features:
+ - Implemented React front end to consume the existing Express REST APIs. This iteration included the following features:
 
  |Change|Purpose|Summary|
  |--|--|--|
- |Added Angular routing and component structure|Enable navigating between views|Created standalone components for listing, creating, editing, and deleting equipment|
- |Integrated Angular forms with REST API|Enable data manipulation|Used FormsModule and ngModel to bind form inputs to equipment data|
- |Pre-filled edit form fields|Improve UX|Used equipment by ID and populated form fields for easier editing|
- |Added edit/delete actions to details view|Improved navigation|Added icons and buttons to transition between views|
- |Delete confirmation and cancel buttons|Prevent accidental deletions|Prompted user before deletion and allowed canceling the action|
+ |Created React component structure|Enable navigating between views|Built standalone components for listing, creating/editing, and viewing equipment details using components and hooks|
+ |Implemented state management|Manage equipment data|Used useState and useEffect to track equipment lists, search phrases, and selected equipment for editing or viewing|
+ |Added search functionality|Filter equipment dynamically|Built a search input to filter displayed equipment cards by name and category|
+ |Refactored card and form styling|Improve UI/UX|Styled equipment cards, edit/create forms, and buttons using a shared CSS inspired by Angular styling|
+ |Connected forms to REST API|Enable CRUD operations|Created forms for adding/editing equipment, including controlled inputs and API calls|
 
  ### Known Issues
 
-  - Occasional issue navigating back to equipment list when viewing details
-  - Canceling delete returns to list, not equipment details
-  - Search functionality not yet implemented
+  - Minor formatting issues remain on some cards and forms when window width is very wide
+  - Canceling eidt returns to equipment list, not deatils page
+  - Occasional slight misalignment of buttons on the edit/create form
 
 ## Risks
 
@@ -167,8 +167,8 @@
 
 ## Conclusion
 
- - This milestone focused on building the Angular front-end to consume the REST APIs developed in earlier stages. It provided experience integrating a frontend framework with a custom backend and reinforced key principles such as:
-   - Component-based architecture and routing in Angular
-   - Form binding and API integration using HttpClient
-   - Debugging and logging for frontend-backend communication
+ - This milestone expanded the project by adding a fully functional React front-end alongside the existing Angular front-end. It involved state management, routing, and form handling in React. Key takeaways from this iteration include:
+   - Component-based design and routing in React using React Router
+   - State management and form handling with controlled components
+   - Using consistent CSS to match Angular aesthetic
    - Maintaining RESTful standards across the full stack

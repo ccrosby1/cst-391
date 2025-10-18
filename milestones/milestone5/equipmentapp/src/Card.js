@@ -1,10 +1,16 @@
+/**
+ * Bootstrap Card to display individual equipment objects
+ * Includes Name, Category, and Price w/ edit/delete buttons
+ */
 import React from "react";
 
 const Card = (props) => {
+    //Handles navigation to the edit view
     const handleEditClick = () => {
         props.onClick(props.equipment.equipmentId, '/edit/');
     };
 
+    // Prompts user before deletion
     const handleDeleteClick = () => {
         if (window.confirm(`Delete equipment: ${props.equipment.name}?`)) {
             props.onDelete(props.equipment.equipmentId);

@@ -1,3 +1,6 @@
+/**
+ * Bootsrtap NavBar linking catalog and create pages
+ */
 import React from "react";
 import { Link } from "react-router-dom";
 

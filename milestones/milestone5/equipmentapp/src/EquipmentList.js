@@ -1,3 +1,6 @@
+/**
+ * Renders a list of EquipmentCard components and manages deletion events
+ */
 import React from 'react';
 import EquipmentCard from './Card';
 import { useNavigate } from 'react-router-dom';
@@ -6,10 +9,12 @@ import dataSource from './dataSource';
 const EquipmentList = (props) => {
     const navigate = useNavigate();
 
+    // Handles user selecting equipment card
     const handleSelection = (equipmentId, uri) => {
         props.onClick(equipmentId, navigate);
     };
 
+    // eletes equipment and triggers list refresh
     const handleDeleteEquipment = async (equipmentId) => {
         try {
             await dataSource.delete(`/equipment/${equipmentId}`);

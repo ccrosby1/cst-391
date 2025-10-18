@@ -1,8 +1,12 @@
+/**
+ * Form component for creating and editing equipment
+ */
 import React, { useState } from 'react';
 import dataSource from './dataSource';
 import { useNavigate } from 'react-router-dom';
 
 const EditEquipment = (props) => {
+    // Default structure for a new equipment
     let equipment = {
         equipmentId: 0,
         name: '',
@@ -18,14 +22,15 @@ const EditEquipment = (props) => {
         newCreation = false;
     }
 
+    // Controlled form state
     const [name, setName] = useState(equipment.name || "");
     const [category, setCategory] = useState(equipment.category || "");
     const [price, setPrice] = useState(equipment.price || 0);
     const [weight, setWeight] = useState(equipment.weight || 0);
     const [isAvailable, setIsAvailable] = useState(equipment.isAvailable ? 1 : 0);
-
     const navigate = useNavigate();
 
+    // Handles form submission for creating and updating
     const handleFormSubmit = async (event) => {
         event.preventDefault();
         const editedEquipment = {
@@ -46,6 +51,7 @@ const EditEquipment = (props) => {
         props.onEditEquipment(navigate);
     };
 
+    // Cancels edit and navigates back to the list view
     const handleCancel = () => {
         navigate("/");
     };
