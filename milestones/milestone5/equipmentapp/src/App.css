@@ -1,0 +1,151 @@
+/* Base style (matching Angular App)*/
+:root {
+  --primary-color: #ff6b35;   /* Bold orange accent */
+  --secondary-color: #2d3142; /* Dark steel gray */
+  --light-color: #f4f4f4;     /* Light neutral */
+  --dark-color: #1a1a1a;      /* Almost black */
+  --highlight-color: #4ecdc4; /* Teal pop for hover/contrast */
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #cfcfcf;
+  color: var(--secondary-color);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(to right, var(--dark-color), var(--secondary-color));
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: var(--primary-color) !important;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: var(--light-color) !important;
+  margin-right: 1rem;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--highlight-color) !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--highlight-color);
+  color: var(--dark-color);
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  border: none;
+  color: var(--light-color);
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background-color: var(--dark-color);
+  color: var(--primary-color);
+}
+
+.btn-warning {
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--light-color);
+  transition: all 0.2s ease;
+}
+
+.btn-warning:hover {
+  background-color: var(--highlight-color);
+  color: var(--dark-color);
+}
+
+/* Cards */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: var(--light-color);
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* Form */
+.form-control {
+  border-radius: 6px;
+  border: 1px solid var(--secondary-color);
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 4px rgba(255, 107, 53, 0.5);
+}
+
+/* Titles */
+h1, h2, h3 {
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 1rem;
+  border-bottom: 3px solid var(--primary-color);
+  display: inline-block;
+  padding-bottom: 0.25rem;
+}
+
+/* Containers */
+.container {
+  margin-top: 2rem;
+}
+
+/* Search area */
+.search-bar {
+  background-color: var(--light-color);
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Equipment list layout */
+.equipment-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Page transitions (optional aesthetic touch) */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
