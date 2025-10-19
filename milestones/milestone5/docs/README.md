@@ -3,14 +3,22 @@
  - Author:  Cody Crosby
  - Date:  19 October 2025
 
+---
+
 ## Links
  [Screen Cast](https://www.loom.com/share/51237b0baaf74303b28c47ec2cb53e3c?sid=22a9799f-773f-43e8-964b-ee9b1a02fa46)
 
  [PowerPoint](PPT.pdf)
 
+ [Visual Diagrams & Screenshots](../../images/screenshots.md)
+
+---
+
 ## Introduction
 
  - This project is an online management application designed for a gym equipment catalog. It will allow users to perform standard CRUD operations on various equipment types, with all data stored in a MySQL database. The catalog will maintain details such as equipment availability, category, pricing, and other details. The backend will be built using Node.js and Express to provide RESTful APIs for data manipulation. Two separate front-end applications, one in Angular and the other in React, will utilize these APIs.
+
+---
 
 ## Requirements
 
@@ -24,6 +32,8 @@
     - Allow users to filter equipment by category
     - Store data in a MySQL database
     - Provide two separate front-ends, Angular and React, that use the same REST APIs
+
+---
 
 ## Updates
 
@@ -43,6 +53,8 @@
   - Canceling eidt returns to equipment list, not deatils page
   - Occasional slight misalignment of buttons on the edit/create form
 
+---
+
 ## Risks
 
  - Possible risks include: 
@@ -52,83 +64,31 @@
    - Concurrent updates to the same record possibly corrupting data
    - Inconsistent states when navigating between views
 
+---
+
 ## Sitemap
 
- - Below is the Sitemap ...
+ - See [Sitemap Diagram](../../images/screenshots.md#sitemap)
 
- ![Sitemap Diagram](../../images/sitemap.png)
+---
 
 ## Wireframes
 
- - Wireframes for:
-    - Home Page
+ - See [Wireframes Section](../../images/screenshots.md#wireframes)
 
-     ![Home Wireframe](../../images/home.png)
-    - Search Page
-
-     ![Search Wireframes](../../images/search.png)
-    - Add/Edit Page
-
-     ![Add/Edit Wireframes](../../images/add.png)
-    - Details Page
-
-     ![Details Wireframes](../../images/details.png)
+---
 
 ## Database Design
 
- - Equipment ER Diagram
+ - See [Database Design](../../images/screenshots.md#database-design)
 
-  ![ER Diagram](../../images/er.png)
+---
 
-## Class Diagram
+## Class & Component Diagrams
 
- - Express APIs:
-    - Equipment Class
+ - See [UML Diagrams](../../images/screenshots.md#class-diagrams)
 
-     ![Equipment UML](../../images/equipment.png)
-    - EquipmentController
-
-     ![EquipmentController UML](../../images/controller.png)
-    - EquipmentDAO
-
-     ![EquipmentDAO UML](../../images/dao.png)
-
- - Angular Front-End:
-    - API Service
-
-    ![equipment-service UML](../../images/equipment-service.png)
-    - ListEquipment
-
-    ![list-equpipment UML](../../images/list-equipment.png)
-
-    - EditEquipment
-
-    ![edit-equpipment UML](../../images/edit-equipment.png)
-
-    - DeleteEquipment
-
-    ![delete-equpipment UML](../../images/delete-equipment.png)
-
-    - CreateEquipment
-
-    ![create-equpipment UML](../../images/create-equipment.png)
-
- - React Front-End:
-    - App.js
-
-    ![Main component UML](../../images/App-js.png)
-
-    - EquipmentList.js
-
-    ![Equipment List UML](../../images/edit-equipment-js.png)
-
-    - EditEquipment.js
-
-    ![Edit/Create form UML](../../images/edit-equipment-js.png)
-
-    - SearchForm.js
-
-    ![Search Form UML](../../images/search-form-js.png)
+---
 
 ## REST Endpoints
 
@@ -141,6 +101,8 @@
  |POST|/equipment|Add a new equipment record to the database|
  |PUT|/equipment|Update an existing equipment item by its ID|
  |DELETE|/equipment/:id|Remove an equipment record from the database by its ID|
+
+---
 
 ## API Example API Request
 
@@ -181,6 +143,8 @@
       "changedRows": 0
     }
  ```
+
+---
 
 ## Conclusion
 
