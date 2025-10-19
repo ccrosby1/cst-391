@@ -1,7 +1,7 @@
 # Project Visuals & UML Diagrams
 
-This page contains all visual documentation and diagrams related to Milestone 5.
-
+This page contains all visual documentation and diagrams related to the milestone project.
+  
 ---
 
 ## Sitemap
@@ -44,15 +44,15 @@ This page contains all visual documentation and diagrams related to Milestone 5.
 
 ### Angular Front-End
  - API Service
-  ![equipment-service UML](equipment-service.png)
+   ![equipment-service UML](equipment-service.png)
  - ListEquipment
-  ![list-equpipment UML](list-equipment.png)
+   ![list-equpipment UML](list-equipment.png)
  - EditEquipment
-  ![edit-equpipment UML](edit-equipment.png)
+   ![edit-equpipment UML](edit-equipment.png)
  - DeleteEquipment
-  ![delete-equpipment UML](delete-equipment.png)
+   ![delete-equpipment UML](delete-equipment.png)
  - CreateEquipment
-  ![create-equpipment UML](create-equipment.png)
+   ![create-equpipment UML](create-equipment.png)
 
 ---
 
