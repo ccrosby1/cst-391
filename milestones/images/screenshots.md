@@ -43,16 +43,16 @@ This page contains all visual documentation and diagrams related to the mileston
 ---
 
 ### Angular Front-End
- - API Service
-   ![equipment-service UML](equipment-service.png)
- - ListEquipment
-   ![list-equpipment UML](list-equipment.png)
- - EditEquipment
-   ![edit-equpipment UML](edit-equipment.png)
- - DeleteEquipment
-   ![delete-equpipment UML](delete-equipment.png)
- - CreateEquipment
-   ![create-equpipment UML](create-equipment.png)
+ - API Service  
+  ![equipment-service UML](equipment-service.png)
+ - ListEquipment  
+  ![list-equpipment UML](list-equipment.png)
+ - EditEquipment  
+  ![edit-equpipment UML](edit-equipment.png)
+ - DeleteEquipment  
+  ![Equidelete-equpipmentpmentDAO UML](delete-equipment.png)
+ - CreateEquipment  
+  ![create-equpipment UML](create-equipment.png)  
 
 ---
 
