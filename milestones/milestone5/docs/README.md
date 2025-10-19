@@ -10,7 +10,7 @@
 
  [PowerPoint](PPT.pdf)
 
- [Visual Diagrams & Screenshots](../../images/screenshots.md)
+ [Diagrams & Screenshots](../../images/screenshots.md)
 
 ---
 
