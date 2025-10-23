@@ -14,19 +14,19 @@ This page contains all visual documentation and diagrams related to the mileston
 
 ### Home Page
 ![Home Wireframe](home.png)
-    - Home page of the site to welcome users
+  - Home page of the site to welcome users
 
 ### Search Page
 ![Search Wireframes](search.png)
-    - Displays list of all inventory items with search functionality to enable dynamic filtering
+  - Displays list of all inventory items with search functionality to enable dynamic filtering
 
 ### Add/Edit Page
 ![Add/Edit Wireframes](add.png)
-    - Reusable page to allow for editing existing items or creating new items
+  - Reusable page to allow for editing existing items or creating new items
 
 ### Details Page
 ![Details Wireframes](details.png)
-    - View to present all relevant data on a selected item
+  - View to present all relevant data on a selected item
 
 ---
 
