@@ -54,14 +54,6 @@ CST-391
 
 ---
 
-## Demonstration
-
- - The technical walkthrough provides a working demonstration of both Angular and React front ends interacting with the same backend API. All visual documentation has been included as well.
- - [Screen cast](https://www.loom.com/share/d03ddb763d004492a0a0f064811670cf?sid=c04f95a9-0ff8-4bf5-982c-54317e4d15ba)
- - [Diagrams & Screenshots](../images/screenshots.md)
-
----
-
 ## Conclusion  
 
  - Creating two separate front ends showed how different frameworks handle concepts like routing and component structure while still following the same core coding principles.
